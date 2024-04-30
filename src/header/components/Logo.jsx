@@ -1,4 +1,4 @@
-export const ReactSvg = ({ size, ...props }) => {
+export const Logo = ({ size, ...props }) => {
     return (
         <svg
             viewBox="-10.5 -9.45 21 18.9"
@@ -21,3 +21,5 @@ export const ReactSvg = ({ size, ...props }) => {
         </svg>
     );
 };
+
+export default Logo;
